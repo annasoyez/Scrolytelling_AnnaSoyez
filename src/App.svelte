@@ -13,7 +13,7 @@ import LoremIpsum from './LoremIpsum.svelte'
   let stepsData = [
     { "text": "Jusqu'en 2016, la production de lithium est d'environ 38.000 tonnes par an. <mark style='background-color: #1d6996; color:white; padding: 2px; border-radius: 5px;'><strong>L'Argentine</strong></mark>, et le <mark style='background-color: #0f8554; color:white; padding: 2px; border-radius: 5px;'><strong>Chili</strong></mark> en sont les premiers producteurs." },
     { "text": "Explosion de la demande à partir de 2018. Pour cause, l'essor de la voiture électrique." },
-    { "text": "En 2020, lUE a déclaré le lithium matière première critique. Après une légère baisse durant les années COVID..." },
+    { "text": "En 2020, l'UE a déclaré le lithium "matière première critique". Après une légère baisse durant les années COVID..." },
 		{ "text": "... l'industrie reprend son ascension. La quantité de lithium extraite chaque année a plus que <mark style='background-color: #6f4070; color:white; padding: 2px; border-radius: 5px;'><strong>triplé en 6 ans</strong></mark>." },
   ];
 
