@@ -1,6 +1,6 @@
 <script>
   import { onMount, onDestroy } from 'svelte';
-	import LoremIpsum from './LoremIpsum.svelte'
+import LoremIpsum from './LoremIpsum.svelte'
 	import Introduction from './Introduction.svelte'
 
   let activeStepIndex = 0;
@@ -12,13 +12,13 @@
 	
   let stepsData = [
     { "text": "Jusqu'en 2016, la production de lithium est d'environ 38.000 tonnes par an. <mark style='background-color: #1d6996; color:white; padding: 2px; border-radius: 5px;'><strong>L'Argentine</strong></mark>, et le <mark style='background-color: #0f8554; color:white; padding: 2px; border-radius: 5px;'><strong>Chili</strong></mark> en sont les premiers producteurs." },
-    { "text": "Explosion de la demande à partir de 2018. Pour cause, l'essor de la voiture électrique." },
-    { "text": "En 2020, lUE a déclaré le lithium matière première critique. Après une légère baisse durant les années COVID..." },
-		{ "text": "... l'industrie reprend son ascension. La quantité de lithium extraite chaque année a plus que <mark style='background-color: #6f4070; color:white; padding: 2px; border-radius: 5px;'><strong>triplé en 6 ans</strong></mark>." },
+    { "text": "Explosion de la demande Ã  partir de 2018. Pour cause, l'essor de la voiture Ã©lectrique." },
+    { "text": "En 2020, lUE a dÃ©clarÃ© le lithium matiÃ¨re premiÃ¨re critique. AprÃ¨s une lÃ©gÃ¨re baisse durant les annÃ©es COVID..." },
+		{ "text": "... l'industrie reprend son ascension. La quantitÃ© de lithium extraite chaque annÃ©e a plus que <mark style='background-color: #6f4070; color:white; padding: 2px; border-radius: 5px;'><strong>triplÃ© en 6 ans</strong></mark>." },
   ];
 
-	// Le "moteur" du scrollytelling qui utilise l'Intersection Observer API (en gros, le code observe ce qu'il y a à l'écran)
-	// ça on ne touche pas sinon tout se casse !
+	// Le "moteur" du scrollytelling qui utilise l'Intersection Observer API (en gros, le code observe ce qu'il y a Ã  l'Ã©cran)
+	// Ã§a on ne touche pas sinon tout se casse !
 
   onMount(() => {
     observer = new IntersectionObserver((entries) => {
@@ -40,7 +40,7 @@
   });
 </script>
 
-<h1>Lithium : la ruée vers l'or blanc</h1>
+<h1>Lithium : la ruÃ©e vers l'or blanc</h1>
 
 <Introduction/>
 
@@ -71,9 +71,9 @@
 <style>
 
 	/* Ici les valeurs pour l'ensemble de la page > 
-	peut nécessiter des modifs de couleurs dans Flourish 
+	peut nÃ©cessiter des modifs de couleurs dans Flourish 
 	pour s'assurer que le graphe soit tjs bien visible (titre de graphique noir sur
-	fond de page noir,ça ne se voit pas bien...*/
+	fond de page noir,Ã§a ne se voit pas bien...*/
 
 	:global(body) {
     background-color: cream white; 
@@ -139,7 +139,7 @@
     margin: auto;
   }
 
-	/* Pour adapter la vue en mobile: steps centrées par dessus le graphique */
+	/* Pour adapter la vue en mobile: steps centrÃ©es par dessus le graphique */
 
   @media screen and (max-width: 768px) {
     .section-container {
